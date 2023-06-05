@@ -50,7 +50,7 @@ class SinglyLinkedList{
 
   shift(){
     if (!this.head) {
-      return undefined
+      return null
     }
     const removedHead = this.head;
     this.head = this.head.next;
