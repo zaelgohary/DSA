@@ -5,6 +5,8 @@ class Node {
   }
 }
 
+
+// LIFO
 class Stack {
   constructor(){
     this.first = null
